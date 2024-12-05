@@ -1,0 +1,4 @@
+---
+tags:
+  - CCNA/Subnetting/CIDR
+---
