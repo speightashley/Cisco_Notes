@@ -35,4 +35,14 @@ So the network address will be 200.15.10.32/27
 
 Add 30 to it for the hosts and it gives us 62, add 1 for the broadcast address and it gives us 200.15.10.63. 
 
+## New York - Sales Department (14 Hosts)
+
+We need to use a /28 which allows us 14 hosts
+
+Network address starts at 200.15.10.64 because of Boston Engineering
+
+The blocks go up in 16s which allows us the 14 hosts + network and broadcast address so the next network address is 80.
+
+Minus 1 gives us our broadcast address of .79 with valid hosts of .65 to .78
+
 
