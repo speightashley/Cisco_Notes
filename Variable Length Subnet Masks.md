@@ -17,9 +17,22 @@ Instead of just creating subnets that are all the same size, we can create, for 
 ![[Pasted image 20241206205108.png]]
 1. We start with the largest requirements which is the engineering departments in Boston and New York.
 
+## New York - Engineering
 If we use a /27, we allowed 30 hosts on each of them which is enough.
 
 This gives us a subnet mask of 255.255.255.224
 
 The network address will be 200.15.10.0/27
+
+The size of the subnet is 32 so the broadcast address will be 200.15.10.31
+
+The hosts range from 10.1 to 10.30
+
+## Boston - Engineering
+Same as above but we need to add it to the end of the range for New York.
+
+So the network address will be 200.15.10.32/27
+
+Add 30 to it for the hosts and it gives us 62, add 1 for the broadcast address and it gives us 200.15.10.63. 
+
 
