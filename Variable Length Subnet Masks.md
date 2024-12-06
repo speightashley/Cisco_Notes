@@ -14,3 +14,12 @@ Instead of just creating subnets that are all the same size, we can create, for 
 2. Continue going down the list from largest to smallest
 3. Allocate spare subnets for future growth and leave enough room in the subnets for additional hosts
 
+![[Pasted image 20241206205108.png]]
+1. We start with the largest requirements which is the engineering departments in Boston and New York.
+
+If we use a /27, we allowed 30 hosts on each of them which is enough.
+
+This gives us a subnet mask of 255.255.255.224
+
+The network address will be 200.15.10.0/27
+
