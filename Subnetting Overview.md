@@ -28,4 +28,6 @@ If we move a bit to the right, we end up with:
 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   |
-Using the formula, we have 1 extra bit from the 24 that we were given so we can make 
+Using the formula, we have 2 extra bits from the 24 that we were given so we can make $2^2$ networks. That's the same as $2*2$ which is 4. 
+
+If we had **borrowed** 4 bits from the host portion, we would be able to create $2*2*2*2$
