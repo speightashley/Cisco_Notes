@@ -80,17 +80,17 @@ Where:
 #### Example 1: `/24` Subnet
 
 - Host bits: $32−24 = 8$
-- Number of hosts: 28−2=256−2=2542^8 - 2 = 256 - 2 = 254
+- Number of hosts: $2^8 - 2 = 254$
 
 #### Example 2: `/26` Subnet
 
-- Host bits: 32−26=632 - 26 = 6
-- Number of hosts: 26−2=64−2=622^6 - 2 = 64 - 2 = 62
+- Host bits: $32−26 = 6$
+- Number of hosts: $2^6 - 2 =62$
 
 #### Example 3: `/30` Subnet
 
-- Host bits: 32−30=232 - 30 = 2
-- Number of hosts: 22−2=4−2=22^2 - 2 = 4 - 2 = 2
+- Host bits: $32−30= 2$
+- Number of hosts: $2^2 - 2  = 2$
 
 ---
 
@@ -112,5 +112,3 @@ Where:
 
 1. **Usable IPs:** Subtract 2 for the network ID and broadcast address.
 2. If you're subnetting in practice, ensure enough hosts can fit in your subnet for your needs.
-
-Let me know if you'd like to explore a specific example!
