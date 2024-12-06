@@ -16,4 +16,16 @@ The sum of all of the bits = 255
 
 Now the formula for $2^{subnet-bits}$ can come into play
 
-We have 
+We have the last byte with 0 bits in it which means we can create subnets by moving the bits to the right.
+
+Currently the last block of bytes looks like this:
+
+| 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+If we move a bit to the right, we end up with:
+
+| 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   |
+Using the formula, we have 1 extra bit from the 24 that we were given so we can make 
