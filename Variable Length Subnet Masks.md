@@ -45,4 +45,14 @@ The blocks go up in 16s which allows us the 14 hosts + network and broadcast add
 
 Minus 1 gives us our broadcast address of .79 with valid hosts of .65 to .78
 
+## Boston Sales (7 Hosts)
+
+We need to use the same as above. Even though we only need 7 hosts, we can't use a /29 because it doesn't leave us enough addresses as it gives us 8 - 2 = 6 hosts instead of the 7.
+
+Network address is at .80 and networks go up in 16s so the next address is .96. Take 1 for the broadcast which is .95 and the range is between .81 and .94
+
+## Point to Point link
+
+We need two IP addresses here so we can use a /30 which allows us 2 hosts. 
+
 
