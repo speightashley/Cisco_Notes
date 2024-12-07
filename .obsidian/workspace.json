@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnetting Large Networks.md",
+                "file": "CIDR Notation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting Large Networks"
+              "title": "CIDR Notation"
             }
           }
         ]
