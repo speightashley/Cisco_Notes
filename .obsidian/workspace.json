@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnetting.md",
+                "file": "Private IP Addresses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting"
+              "title": "Private IP Addresses"
             }
           }
         ]
@@ -166,8 +166,10 @@
   "active": "8f4a9089224836c6",
   "lastOpenFiles": [
     "README.md",
-    "Subnetting Overview.md",
+    "Private IP Addresses.md",
+    "IP Addressing.md",
     "Subnetting.md",
+    "Subnetting Overview.md",
     "Subnetting Large Networks.md",
     "Files/Subnetting+on+the+4th+Octet+-+Written+Example.pdf",
     "Files",
