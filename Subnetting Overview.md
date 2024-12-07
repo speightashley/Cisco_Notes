@@ -112,3 +112,6 @@ Where:
 
 1. **Usable IPs:** Subtract 2 for the network ID and broadcast address.
 2. If you're subnetting in practice, ensure enough hosts can fit in your subnet for your needs.
+
+[[Subnetting+on+the+3rd+Octet+-+Written+Example.pdf]]
+[[Subnetting+on+the+4th+Octet+-+Written+Example.pdf]]
