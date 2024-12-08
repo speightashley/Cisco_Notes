@@ -1,6 +1,6 @@
 # Private IP Addresses
 
-Private IP addresses are IP addresses reserved for internal use within private networks. These addresses cannot be routed on the public internet, making them ideal for local communication within a network, such as a home, office, or organization.
+Private IP addresses are IP addresses reserved for internal use within private networks. These addresses cannot be routed on the public internet, making them ideal for local communication within a network, such as a home, office, or organisation.
 
 ---
 
